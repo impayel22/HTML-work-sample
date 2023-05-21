@@ -1,0 +1,133 @@
+h1{
+text-align: center;
+color: black;
+ }
+.green{
+  height: 300px;
+  width: 500px;
+  background-color: green;
+  border:1px solid black;
+  position: absolute;
+
+ }
+ .red{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+  top:50px;
+  left: 130px;
+ 
+ }
+ 
+ .white{
+  height: 300px;
+  width: 500px;
+  background-color: white;
+  border:1px solid black;
+  position: absolute;
+ }
+ .red1{
+  height: 50px;
+  width: 500px;
+  background-color: red;
+  top:110px;
+  position: relative;
+ }
+ .red2{
+  height: 300px;
+  width: 50px;
+  background-color: red;
+  left: 220px;
+  top: -49px;
+  position: relative;
+ }
+
+ .white2{
+ height: 300px;
+  width: 500px;
+  background-color: white;
+  border:1px solid black;
+  position: absolute;}
+ 
+ .red3{
+
+       height:150px;
+       width: 500px;
+       top:150px;
+       position: relative;
+        background-color: #D7141A;}
+
+.triangle-right {
+  content:"";
+  display:block;
+  position: absolute;
+
+  margin-top:-150px;
+  width: 0;
+  height: 0;
+  border-top: 150px solid transparent;
+  border-left: 250px solid blue;
+  border-bottom: 150px solid transparent;
+  z-index:2;
+}
+
+.blue{
+  height: 300px;
+  width: 500px;
+  background-color: blue;
+  border:1px solid black;
+  position: absolute;
+ }
+ .yellow1{
+  height: 50px;
+  width: 500px;
+  background-color: yellow;
+  top:110px;
+  position: relative;
+ }
+ .yellow2{
+  height: 300px;
+  width: 50px;
+  background-color: yellow;
+  left: 140px;
+  top: -49px;
+  position: relative;
+ }
+
+.flag {
+  width: 500px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.france-flag {
+  width: 100%;
+  padding-bottom: 66.667%;
+  background-color: white;
+  position: relative;
+  margin: 0;
+}
+
+.france-flag::before {
+  content: ' ';
+  position: absolute;
+  background-color: #0055A4;
+  width: 30%;
+  height: 100%;
+}
+
+.france-flag::after {
+  content: ' ';
+  position: absolute;
+  background-color:   #EF4135;
+  width: 37%;
+  height: 100%;
+  right: 0;
+}
+
+ 
